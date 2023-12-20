@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500&family=Rajdhani&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500&family=Rajdhani&display=swap');
+*{
+    font-family: 'Bebas Neue';
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #FAD8A7;
+}
+
+/*    NAV     */
+.onglets{
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    border-bottom: solid 8px #96A702;
+    background: black;
+}
+
+.onglets a{
+    color: white;
+    z-index: 2;
+    font-size: 25px;
+}
+
+.onglet-img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: black;
+    height: 120px;
+}
+.onglet-img img{
+    width: 150px;
+    height: 80px;
+}
+.logo_ankama{
+    width: 250px !important;
+    height: auto !important;
+    position: relative;
+    bottom: 25px;
+}
+.arrondi1{
+    border: solid 5px #54342b ;
+    border-radius: 50px;
+    background: #e7a300 ;
+    width: calc(150px + 5vw);
+    display: flex;
+    justify-content: center;
+}
+.arrondi2{
+    border: solid 5px #54342b ;
+    border-radius: 50px;
+    background: #3eafb2 ;
+    width: calc(150px + 5vw);
+    display: flex;
+    justify-content: center;
+}
+
+
+/*       Contenu  Classes    */
+
+.bg{
+    width: 100%;
+    height: 500px;
+    background: url(./images/bg_4_1.jpg);
+    background-size: cover;
+    border-bottom: solid 8px #96A702;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+    font-weight: bolder;
+}
+
+h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.text p{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif !important;
+}
+.text div{
+    max-width: 1200px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+.segment hr{
+    background: black;
+    height: 3px;
+    width: 50%;
+}
+.segment{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+/*         classes        */
+
+
+.classes img{
+    width: 90px;
+    position: relative;
+
+}
+.classes span{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.classes{
+    display: flex;
+    flex-direction: column;
+}
+.classes{
+    text-align: center;
+}
+.classes section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.classes a{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border:  solid 2px black;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.classes div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.classes div p{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.img-iop{
+    background: url(./images/classes/iopM.jpg);
+    background-size: contain;
+    width: 60px;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+.img-iop:hover{
+    background: url(./images/classes/iopF.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bg2{
+    background: url(./images/bg4_1.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+/*    FOOTER    */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: black;
+    padding: 10px;
+
+}
+
+footer p{
+    font-family: "Roboto", sans-serif !important;
+    font-size: 20px;
+    color: white;
+}
+footer div{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer img{
+    width: 64px;
+}
+footer section{
+    display: flex;
+    padding: 5px;
+}
+
+.twitch{
+    width: 50px !important;
+    height: 50px !important;
+    margin-top: 7px;
+}

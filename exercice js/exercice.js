@@ -1,4 +1,5 @@
-/*var texteAlert = prompt("je mange du chien:")
+/*
+var texteAlert = prompt("je mange du chien:")
 
 let a = 5
 let b = 6
@@ -57,4 +58,44 @@ while(codePostal < 8000){
     dialogue.innerHTML += '7' + codePostal + '<br>'
     codePostal++
 }
+
+
+const dialogue = document.getElementById('dialogue')
+for(var x = 1; x<= 10; x+=1){
+    var number = 5;
+    var table = number * x
+    dialogue.innerHTML +=  number +'x' + x + "=" + table+  '<br>'
+}
+
+
+for(var x = 1; x<= 5; x+=1){
+
+    if(x==1){
+        var nombre = x * 1
+        dialogue.innerHTML += nombre + '<br>'
+    }
+    if(x==2){
+        var nombre = x * 11
+        dialogue.innerHTML += nombre + '<br>'
+    }
+    if(x==3){
+        var nombre = x * 111
+        dialogue.innerHTML += nombre + '<br>'
+    }
+    if(x==4){
+        var nombre = x * 1111
+        dialogue.innerHTML += nombre + '<br>'
+    }
+    if(x==5){
+        var nombre = x * 11111
+        dialogue.innerHTML += nombre + '<br>'
+    }
+
+}
 */
+var x = 0
+
+while (x <= 20){
+    dialogue.innerHTML += x +"<br>"
+    x+=2
+}
