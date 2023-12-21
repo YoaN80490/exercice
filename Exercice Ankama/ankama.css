@@ -210,3 +210,46 @@ footer section{
     height: 50px !important;
     margin-top: 7px;
 }
+
+/*        IOP    contenu       */
+
+
+
+.description{
+    display: flex;
+    text-align: center;
+    padding: 30px;
+}
+
+.description p{
+    font-family: "Roboto", sans-serif !important;
+    font-size: 20px;
+    padding: 22px;
+}
+
+.description span{
+    font-weight: bold;
+    font-family: "Roboto", sans-serif !important;
+    padding: 22px !important;
+}
+
+
+
+/*     Caroussel     */
+
+.carrousel{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+.slides{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+.flechegauche{
+    rotate: 180deg;
+}
